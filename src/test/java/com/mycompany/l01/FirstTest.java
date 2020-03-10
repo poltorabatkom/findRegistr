@@ -12,10 +12,11 @@ import java.nio.file.Paths;
 
 public class FirstTest {
     WebDriver driver = null;
-    String baseUrl = "https://www.google.ru/";
-    String expectedTitle = "Intra";
+    String baseUrl = "https://intra.t-systems.ru/dash";
+//    String expectedTitle = "Google";
+    String expectedTitle = "";
     String actualTitle = "";
-    String current_env = "firefox";
+    String current_env = "chrome";
 
     @BeforeTest
     public void initBrowser() {
