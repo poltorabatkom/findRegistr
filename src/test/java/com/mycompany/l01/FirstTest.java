@@ -35,9 +35,11 @@ public class FirstTest {
         {
             System.exit(0);
         }
+
+        driver.get(baseUrl);
     }
 
-    @Test
+    @Test(enabled = false)
     public void runBrowser() {
         driver.get(baseUrl);
         actualTitle = driver.getTitle();
